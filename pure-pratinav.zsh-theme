@@ -1,6 +1,5 @@
 # Pure Pratinav
 # by Pratinav Bagla
-# https://pratinav.xyz/
 # Adapted from
 # Pure
 # by Sindre Sorhus
