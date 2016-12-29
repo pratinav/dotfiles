@@ -1,5 +1,5 @@
 " Pratinav Bagla's .vimrc
-" Still a work in progress (21 Dec, 2016)
+" Still a Work in Progress
 
 """""""""""""""""""""""""""
 " GENERAL
@@ -10,7 +10,7 @@ set nocompatible
 " syntax highlighting
 syntax on
 
-" loads indent plugin thingy
+" enables something
 filetype plugin indent on
 
 " auto read when file is changed from outside
@@ -83,11 +83,12 @@ nmap <leader>n :NERDTreeToggle<cr>
 " PLUGINS
 """""""""""""""""""""""""""
 call plug#begin()
-Plug 'morhetz/gruvbox'
+" Plug 'morhetz/gruvbox'
+Plug 'altercation/vim-colors-solarized'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'kien/ctrlp.vim'
 Plug 'bling/vim-airline'
 Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
-colorscheme gruvbox
+colorscheme solarized
