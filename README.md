@@ -10,7 +10,7 @@ Install xcode dev tools (or whatever the heck it's called)
 ### [iTerm 2](https://www.iterm2.com/)
 [Solarized Dark](http://ethanschoonover.com/solarized) (should already be installed)
 
-14 px [Source Code Pro](#)
+14 px [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
 
 
 ### [Oh My ZSH](http://ohmyz.sh/)
@@ -28,7 +28,7 @@ Solarized Dark
 
 - Install vim from [homebrew](http://brew.sh/)
 - Add `alias vim=/usr/local/bin/vim` to `.zshrc` if not already there
-- Install [Vim Plug](#)
+- Install [Vim Plug](https://github.com/junegunn/vim-plug)
 - Dump `.vimrc` in `~`
 - Open vim and run `:PlugInstall`
 
