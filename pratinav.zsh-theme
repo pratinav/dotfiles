@@ -20,6 +20,5 @@ function pratinav_git_dirty {
   [[ -n $(git status --porcelain 2>/dev/null | tail -n1) ]] && echo "*"
 }
 
-PROMPT='
-%F{yellow}%n@%m%f in %F{blue}%~%f %F{242}$vcs_info_msg_0_$(pratinav_git_dirty)%f
+PROMPT='%F{yellow}%n@%m%f in %F{blue}%~%f %F{242}$vcs_info_msg_0_$(pratinav_git_dirty)%f
 $ '

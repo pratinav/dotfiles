@@ -1,0 +1,23 @@
+ST3 Package Control Packages
+============================
+All Autocomplete
+Autoprefixer
+Babel
+Boxy Theme
+BracketHighlighter
+ClangAutoComplete
+Color Highlighter
+ColorPicker
+CSS Extended Completions
+DocBlockr
+Emmet
+HTML Minifier
+Javascript Completions
+Markdown Preview
+Minify
+ReactJS
+Sass
+SideBarEnhancements
+SublimeCodeIntel
+SublimeLinter
+SublimeLinter-contrib-eslint
