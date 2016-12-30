@@ -9,6 +9,7 @@ Install xcode dev tools (or whatever the heck it's called)
 
 ### [iTerm 2](https://www.iterm2.com/)
 [Solarized Dark](http://ethanschoonover.com/solarized) (should already be installed)
+
 14 px [Source Code Pro](#)
 
 
@@ -44,6 +45,10 @@ Boxy Ocean
 
 ## Other
 [ShiftIt](https://github.com/)
+
 [Spark Mail](https://sparkmailapp.com/)
+
 [Simplenote](https://simplenote.com/)
+
 [Web Torrent](https://webtorrent.io/)
+
