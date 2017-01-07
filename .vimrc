@@ -70,6 +70,9 @@ set incsearch
 " highlight searches
 set hlsearch
 
+" enable mouse for quick stuff
+set mouse=a
+
 " for airline to appear all the damn time
 set laststatus=2
 
@@ -91,4 +94,5 @@ Plug 'bling/vim-airline'
 Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
+set background=dark
 colorscheme solarized
