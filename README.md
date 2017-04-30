@@ -5,6 +5,7 @@
 - `brew install git`
 - Install [node](https://nodejs.org)
 - `curl -O https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh`
+- Add `. ~/.bashrc` to `.bash_profile`
 
 ## Vim
 
