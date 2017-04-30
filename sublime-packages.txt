@@ -1,6 +1,5 @@
-ST3 Package Control Packages
+ST3 Packages
 ============================
-All Autocomplete
 Autoprefixer
 Babel
 Boxy Theme
@@ -11,12 +10,9 @@ ColorPicker
 CSS Extended Completions
 DocBlockr
 Emmet
-HTML Minifier
 Javascript Completions
-Markdown Preview
 Minify
 ReactJS
-Sass
 SideBarEnhancements
 SublimeCodeIntel
 SublimeLinter

@@ -1,54 +1,21 @@
-# Pratinav's Setup
-macOS Sierra
+# Setup
 
-## Terminal
-Install xcode dev tools (or whatever the heck it's called)
+- Install xcode command-line tools
+- Install [homebrew](brew.sh)
+- `brew install git`
+- Install [node](nodejs.org)
 
-### Tools
-[Git](http://git-scm.com/), [Homebrew](http://brew.sh/), [Node](http://nodejs.org/), [npm](http://npmjs.com/) (should be installed with node)
+## Vim
 
-### [iTerm 2](https://www.iterm2.com/)
-[Solarized Dark](http://ethanschoonover.com/solarized) (should already be installed)
-
-14 px [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
-
-
-### [Oh My ZSH](http://ohmyz.sh/)
-*NOTE: Try switching to Prezto or something, maybe?*
-
-- Install OMZSH
-- Put `pratinav.zsh-theme` in `.oh-my-zsh/custom`
-- Dump `.zshrc` (with whatever changes) in `~`
-
-
-## Editors
-
-### [Vim](http://www.vim.org/)
-Solarized Dark
-
-- Install vim from [homebrew](http://brew.sh/)
-- Add `alias vim=/usr/local/bin/vim` to `.zshrc` if not already there
-- Install [Vim Plug](https://github.com/junegunn/vim-plug)
-- Dump `.vimrc` in `~`
+- `brew install vim` (restart terminal after)
+- Install [Vim Plug](github.com/junegunn/vim-plug)
+- Copy `.vimrc` to `~`
 - Open vim and run `:PlugInstall`
 
+## Sublime Text
 
-### [Sublime Text 3](https://www.sublimetext.com/)
-Boxy Ocean
-
-- Install ST3
-- Install [Package Control](http://packagecontrol.io/)
-- Install all de packages [see `sublime-packages.txt`]
-- Paste `Preferences.sublime-settings`
+- [Install](sublimetext.com/3)
 - `ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl`
-
-
-## Other
-[ShiftIt](https://github.com/)
-
-[Spark Mail](https://sparkmailapp.com/)
-
-[Simplenote](https://simplenote.com/)
-
-[Web Torrent](https://webtorrent.io/)
-
+- Paste `Preferences.sublime-settings`
+- [Install Package Control](packagecontrol.io/installation)
+- Install packages
