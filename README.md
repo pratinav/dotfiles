@@ -4,6 +4,7 @@
 - Install [homebrew](https://brew.sh)
 - `brew install git`
 - Install [node](https://nodejs.org)
+- `curl -O https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh`
 
 ## Vim
 
