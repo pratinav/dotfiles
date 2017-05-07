@@ -1,23 +1,25 @@
 # Setup
 
-- Install xcode command-line tools
-- Install [homebrew](https://brew.sh)
-- `brew install git`
-- Install [node](https://nodejs.org)
-- `curl -O https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh`
-- Add `. ~/.bashrc` to `.bash_profile`
+```
+xcode-select --install
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install git
+brew install vim
+brew install node
+brew install python3
+curl -O https://cdn.rawgit.com/{git/git/master/contrib/completion/git-prompt.sh, pratinav/dotfiles/master/{.bashrc, .vimrc}}
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+git config --global user.name "Pratinav Bagla"
+git config --global user.email "pratinavbagla@gmail.com"
+git config --global credential.helper osxkeychain
+```
 
-## Vim
-
-- `brew install vim` (restart terminal after)
-- Install [Vim Plug](https://github.com/junegunn/vim-plug)
-- Copy `.vimrc` to `~`
+- add `. ~/.bashrc` to `.bash_profile`
 - Open vim and run `:PlugInstall`
 
-## Sublime Text
 
-- [Install](https://sublimetext.com/3)
+## Others
+
+- [Sublime Text](https://sublimetext.com/3)
 - `ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl`
-- Paste `Preferences.sublime-settings`
-- [Install Package Control](https://packagecontrol.io/installation)
-- Install packages
