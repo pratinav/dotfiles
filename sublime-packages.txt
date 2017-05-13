@@ -10,10 +10,7 @@ ColorPicker
 CSS Extended Completions
 DocBlockr
 Emmet
-Javascript Completions
 Minify
 ReactJS
 SideBarEnhancements
 SublimeCodeIntel
-SublimeLinter
-SublimeLinter-contrib-eslint
