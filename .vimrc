@@ -1,36 +1,31 @@
-" Pratinav Bagla's .vimrc
+filetype plugin indent on       " Enable filetype support, filetype-specific
+                                " indenting and plugins.
+syntax on                       " Enable syntax highlighting.
+set autoindent                  " Auto-indent lines if no filetype support.
+set number                      " Display line numbers.
+set backspace=indent,eol,start  " Enable backspacking over indents etc.
+set ruler                       " Display cursor position.
+set showcmd                     " Show partial commands in status bar.
+set mouse=a                     " Enable mouse in all modes.
 
-"""""""""""""""""""""""""""
-" GENERAL
-"""""""""""""""""""""""""""
-filetype plugin indent on 
-syntax on           " syntax highlighting
-set autoread        " auto read when file is changed from outside
-set number          " line numbers
-set ruler           " cursor position
-set tabstop=4       " number of spaces per tab
-set shiftwidth=4    " number of spaces to (auto)indent
-set softtabstop=4   " number of spaces per tab when editing
-set expandtab       " tabs are spaces
-set autoindent      " autoindenting is always on
-set smartindent     " smart indent
-set cindent         " c indent
-set wrap            " wrap lines
-set textwidth=80    " wrap at 80 cols
-set showmatch       " highlights matching braces
-set hlsearch        " highlight searches
-set mouse=a         " enable mouse for quick stuff
-set backspace=indent,eol,start
+" Indentation
+set softtabstop=4               " Columns to use when inserting a Tab.
+set shiftwidth=4                " Columns to indent with <<, >>, cindent.
+set expandtab                   " Use spaces when inserting a Tab.
 
-"set ignorecase      " ignore case when searching
-"set incsearch       " searches as characters are entered
-"set termguicolors
+" Search
+set hlsearch                    " Highlight searches.
+set ignorecase                  " Ignore case when searching...
+set smartcase                   " ...except when using uppercase chars.
+
+set wrap                        " Wrap lines.
+set textwidth=80                " Wrap at 80 columns.
 
 """""""""""""""""""""""""""
 " PLUGINS
 """""""""""""""""""""""""""
-call plug#begin()
-Plug 'jiangmiao/auto-pairs'
-Plug 'tpope/vim-commentary'
-call plug#end()
+" call plug#begin()
+" Plug 'jiangmiao/auto-pairs'
+" Plug 'tpope/vim-commentary'
+" call plug#end()
 
