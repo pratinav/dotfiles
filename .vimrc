@@ -23,6 +23,7 @@ set textwidth=80                " Insert line break after 80 columns.
 set wrap                        " Visually wrap lines.
 
 " Search
+set incsearch                   " Incremental search.
 set hlsearch                    " Highlight searches.
 set ignorecase                  " Ignore case when searching.
 set smartcase                   " Do not ignore case if any char is uppercase.
