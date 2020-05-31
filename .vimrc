@@ -30,7 +30,7 @@ set smartcase                   " Do not ignore case if any char is uppercase.
 
 
 """""""""""""""""""""""""""
-" PLUGINS
+" PLUGINS (vim-plug)
 """""""""""""""""""""""""""
 call plug#begin()
 Plug 'jiangmiao/auto-pairs'
