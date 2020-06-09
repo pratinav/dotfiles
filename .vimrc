@@ -32,17 +32,19 @@ set ignorecase                  " Ignore case when searching.
 set smartcase                   " Do not ignore case if any char is uppercase.
 
 """""""""""""""""""""""""""
-" FILETYPE-SPECIFIC
-"""""""""""""""""""""""""""
-" Indent with 2 spaces for html and css files.
-autocmd FileType html   setlocal softtabstop=2 shiftwidth=2
-autocmd FileType css    setlocal softtabstop=2 shiftwidth=2
-
-"""""""""""""""""""""""""""
 " PLUGINS (vim-plug)
 """""""""""""""""""""""""""
 call plug#begin()
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-commentary'
+Plug 'mattn/emmet-vim'
 call plug#end()
+
+"""""""""""""""""""""""""""
+" FILETYPE-SPECIFIC
+"""""""""""""""""""""""""""
+" html, css: emmet, 2 space indentation
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
+autocmd FileType html,css setlocal softtabstop=2 shiftwidth=2
 
