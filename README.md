@@ -1,4 +1,4 @@
-# Pratinav Bagla's dotfiles
+# pratinav's dotfiles
 
 To be installed at `~/.dotfiles/`.
 
